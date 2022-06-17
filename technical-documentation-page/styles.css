@@ -1,0 +1,38 @@
+@media max-width {
+    p {
+        display: none;
+    }
+}
+
+nav {
+    background-color: #333;
+    overflow: hidden;
+    width: 20%;
+    float: left;
+    display: block;
+}
+
+section {
+    position: relative;
+    background: lightgray;
+    left: 10%;
+}
+
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 200px;
+    background-color: #f1f1f1;
+    height: 100%;
+    position: fixed;
+    overflow: auto;
+}
+
+
+
+li a:hover {
+    background-color: #555;
+    color: white;
+}
