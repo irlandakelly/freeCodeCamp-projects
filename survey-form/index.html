@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <h1 id="title"> Survey Form - User Feedback </h1>
+</head>
+
+<body>
+    <p id="description"> We'd love to hear about your experience using our services. </p>
+    <form id="survey-form"> Formulario
+        <br>
+        <label id="name-label"> Name
+            <input type="text" id="name" placeholder="Enter your name." required>
+            </input>
+            <br>
+            <label id="email-label"> Email
+                <input type="email" id="email" placeholder="Enter your email." required>
+                </input>
+                <br>
+                <label id="number-label"> Age
+                    <input type="number" id="number" min="10" max="99" placeholder="Age" required>
+                    <br>
+                    <div class="form-group">
+                        <p>Where are you from</p>
+                        <label id="dropdown-label">
+                            <select id="dropdown" name="location" class="form-control" required>
+                                <option disabled selected value>Choose one</option>
+                                <option value="Option 1">Option 1</option>
+                                <option value="Option 2">Option 2</option>
+                                <option value="Option 3">Option 3</option>
+                                <option value="Option 4">Option 4</option>
+                            </select>
+                    </div>
+                    <br>
+                    <div>
+                        <p>What's your sex?</p>
+                        <label for="Female">
+                            <input id="female" value="female" type="radio" name="female-male">Female
+                        </label>
+                        <label for="Male">
+                            <input id="male" value="male" type="radio" name="female-male">Male
+                        </label>
+                        <label for="Other">
+                            <input id="other" value="other" type="radio" name="female-male">Rather not say
+                    </div>
+                    <div>
+                        <p> What fast food restaurants do you love? </p>
+                        <label for="bk">
+                            <input id="bk" type="checkbox" value="BK" name="fast-food" /> Burger King
+                        </label>
+                        <br>
+                        <label for="cj">
+                            <input id="cj" type="checkbox" value="CJ" name="fast-food" /> Carl's Junior
+                        </label>
+                        <br>
+                        <input id="mcd" type="checkbox" value="MCD" name="fast-food" /> McDonald's
+                </label>
+                <br>
+                <input id="wen" type="checkbox" value="WEN" name="fast-food" /> Wendy's
+            </label>
+            <br> <br>
+            <p> Comments </p>
+            <textarea id="comments" name="textarea" placeholder="write sth here"></textarea>
+            <be><br>
+                <button type="submit" id="submit" class="submit-button">
+                    Submit
+                </button>
+    </form>
+
+</html>
